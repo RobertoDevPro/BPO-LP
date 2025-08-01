@@ -79,7 +79,7 @@ export default function Home() {
             {/* CTA Principal */}
             <Button
               size="lg"
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg sm:text-xl font-bold rounded-xl shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-105"
+              className="bg-green-600 hover:bg-green-700 text-white px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg lg:text-xl font-bold rounded-xl shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-105 w-full max-w-sm sm:max-w-md lg:max-w-none lg:w-auto mx-auto"
               onClick={() =>
                 handleCTA(
                   "Olá! Quero saber mais sobre o BPO Financeiro da Magnum. Pode me apresentar os planos e como funciona?",
@@ -328,13 +328,13 @@ export default function Home() {
             <Card className="border-0 shadow-xl bg-white overflow-hidden">
               <CardContent className="p-0">
                 <div className="flex flex-col lg:flex-row">
-                  <div className="lg:w-1/3 relative">
+                  <div className="w-full lg:w-1/3 relative">
                     <Image
                       src="/images/fernando-cruz.jpg"
                       alt="Fernando Cruz Ferreira"
                       width={400}
                       height={500}
-                      className="w-full h-auto max-h-96 lg:h-full lg:max-h-none object-contain lg:object-cover object-center rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"
+                      className="w-full h-auto max-h-80 lg:h-full lg:max-h-none object-contain lg:object-cover object-center rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"
                     />
                   </div>
                   <div className="lg:w-2/3 p-8 sm:p-12">
