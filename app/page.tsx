@@ -334,7 +334,7 @@ export default function Home() {
                       alt="Fernando Cruz Ferreira"
                       width={400}
                       height={500}
-                      className="w-full h-80 sm:h-96 lg:h-full object-cover object-center rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"
+                      className="w-full h-auto max-h-96 lg:h-full lg:max-h-none object-contain lg:object-cover object-center rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"
                     />
                   </div>
                   <div className="lg:w-2/3 p-8 sm:p-12">
